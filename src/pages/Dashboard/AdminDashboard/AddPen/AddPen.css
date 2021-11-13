@@ -1,0 +1,20 @@
+.add-pen form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-pen form input,
+textarea {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+/* @media only screen and (max-width: 600px) {
+  .add-pen form input,
+  textarea {
+    width: 90% !important  ;
+  }
+}
+ */

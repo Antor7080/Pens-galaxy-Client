@@ -1,0 +1,16 @@
+.add-admin form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-admin form input {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .add-admin form input {
+    width: 90%;
+  }
+}
