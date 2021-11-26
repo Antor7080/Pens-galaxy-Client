@@ -12,7 +12,6 @@ const MyOrder = () => {
             .then(res => res.json())
             .then(data => setOrder(data))
     }, [order, url]);
-    console.log(order);
     const handleDeleteOrder = (id) => {
         const proceed = window.confirm("Are you sure want to delete");
         if (proceed) {
